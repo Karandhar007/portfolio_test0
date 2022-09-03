@@ -89,3 +89,28 @@ body {
 .myprofile{
     margin: 10px 10px;
 }
+
+.email{
+    display : flex;
+    flex-direction : column;
+    justify-content:center;
+    align-items:center;
+    height: 400px;
+    border: 1px solid  #18e097;
+    width : 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    background: black;
+    padding : 10px;
+}
+
+#e-body{
+    height: 150px;
+    width : 300px;
+    margin-bottom: 10px;
+}
+
+#e-email{
+    margin-bottom: 10px;
+}
