@@ -1,0 +1,91 @@
+body {
+    background-image:url("https://media.giphy.com/media/pViWHLiQBA1q0/giphy.gif") ;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:black;
+    color: white;
+    border: 1px solid #18e097;
+  }
+
+.desc {
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display : flex;
+    flex-direction : column;
+    justify-content:center;
+    align-items:center;
+    width : 600px;
+    background: transparent;
+    color:  #18e097;
+    
+}
+
+#me {
+    width: 100px;
+    border: 1px solid ;
+    border-radius: 100px;
+}
+
+.project {
+    background: black;
+    height: 450px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border: 1px solid grey;
+    width : 600px;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 8px 10px;
+}
+
+/*.proj-sty{
+    margin-left: auto;
+    margin-right: auto;
+    display : flex;
+    flex-direction : column;
+    justify-content:center;
+    align-items:center;
+}*/
+
+.img-pro{
+    margin-left: 150px;
+}
+
+.for-pro{
+    margin-top : 10px;
+    margin-bottom : 10px;
+}
+
+.end{
+    border-top:1px solid  #18e097;
+    margin-top : 500px ;
+    background-color : black;
+    height : 400px;
+}
+
+.myprofile{
+    margin: 10px 10px;
+}
