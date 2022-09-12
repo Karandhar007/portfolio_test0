@@ -1,7 +1,7 @@
 body {
     background-image:url("https://media.giphy.com/media/pViWHLiQBA1q0/giphy.gif") ;
     background-size: cover;
-    color: whitesmoke;
+    /*color: rgb(73, 3, 3);*/
 }
 
 .topnav {
@@ -84,6 +84,7 @@ body {
     margin-top : 500px ;
     background-color : black;
     height : 400px;
+    color : whitesmoke;
 }
 
 .myprofile{
